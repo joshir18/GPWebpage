@@ -2,12 +2,15 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>problem form</title>
+<title>data generation</title>
+<link rel="stylesheet" type="text/css" href="w3.css">
 </head>
 <body>
-<h1>Select Problem</h1>
+<h1>Genetic Programming Data Generation</h1>
+<p class="description">
+This section here describes the webpage and what it does.
+</p>
 <form name="problemSelect" action="ProblemServlet" method="get">
-<p>
 <label>What problem would you like data sets for?
 	<select name="problemType">
 		<option value="checksum">Checksum</option>
@@ -42,7 +45,7 @@
 	</select>
 </label><br/>
 <label>How many data sets would you like to generate?(Maximum 1000)
-	<input type="number" name="reps" min="1" max="1000"><br/>
+	<input type="number" name="reps" min="1" max="1000">
 </label><br/>
 <label>What file type would you like your data to be in?
 	<select name="fileType">
@@ -51,10 +54,10 @@
 		<option value="edn">EDN</option>
 		<option value="json">JSON</option>
 	</select>
-</label><br/>
+</label>
 <input type="submit" value="Submit Request"/>
 			<input type="reset" value="Reset"/>	
-</p>
 </form>
+</p>
 </body>
 </html>

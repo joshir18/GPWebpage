@@ -1,0 +1,47 @@
+body {background-color: #eeeeee;
+		font-family: Arial;
+		color: #FFFFFF;
+		line-height: 1;}
+		
+h1 {background-color: white;
+	font-family: Arial;
+	color: #5890d3;
+	padding: 10px;
+	border-bottom: 3px solid #5890d3;
+	border-left:3px solid #5890d3;
+	padding-top: 30px;
+	width: 110%;}
+
+p.description {
+	float:left;
+	width: 45%;
+	background-color: white;
+	color: #5890d3;
+	border: 3px solid #5890d3;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+	
+form {
+	float: right;
+	font-family: Calibri;
+	border: 3px outset white;
+	padding: 20px;
+	width: 55%;
+	background-color: #5890d3;
+	font-size: larger;
+	line-height: 3;
+}
+
+select {
+	background-color: #94b7e0;
+	color: white;
+}
+
+input {
+	background-color: #94b7e0;
+	color: white;
+}
+
